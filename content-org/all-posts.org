@@ -1,0 +1,63 @@
+#+hugo_base_dir: ../
+
+# To add automatic timestamp updates to a subtree, add
+# :EXPORT_HUGO_AUTO_SET_LASTMOD:
+# to the properties
+# For some reason, I think the global #+hugo_auto_set_lastmod: t
+# file setting was causing my Emacs to freeze. It's still freezing. 
+# Can't figure out why, but it definitely started (and seems to be
+# related to) when I added the auto set lastmod stuff.
+
+* TODO Homepage _index
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_TYPE: homepage
+:EXPORT_HUGO_SECTION: /
+:END:
+** Notes
+*** Latex preview PNGs
+  My PNGs that are the LaTeX preview from ORG/* are showing up in this
+  =cdell.io/static/ltximg= when I run =org-hugo-export-wim-to-md=.
+
+  Note: a temporary workaround for this dilemma is to .gitignore
+  =static/ltximg/*=, but this will likely interfere with embedded LaTeX in
+  Github Pages
+
+  The real concern here is committing content that is not intended for a
+  publicly facing repo, as Github Pages /must/ be.
+*** Known issues
+- It looks like changing tags/categories will break a running server, locally.
+- Tags can't contain hyphens
+  - Can they be escaped?
+* DONE Thoughts
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_SECTION: posts/
+:END:
+Hello! Thanks for checking out my writings. I hope you enjoy them.
+* DONE My First Post :sometag:@somecategory:
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-first-post
+:END:
+This is my post body, again.
+#+begin_src python
+def main():
+    for i in range(10):
+        print(i)
+
+main()
+#+end_src
+* TODO A Lovely Diner
+:PROPERTIES:
+:EXPORT_FILE_NAME: a-lovely-diner
+:END:
+Recount the imrpession Mac's diner in Chicago left on me.
+** The people, not the place or the food
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum."
+*** Another sub-item
+More text
