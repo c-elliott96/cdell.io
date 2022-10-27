@@ -1,31 +1,69 @@
 # This section is necessary for the way in which Blowfish
 # uses il8n, probably.
+#
+# The Hugo language code for this file. It can be a top-level language (ie.
+# en) or a sub-variant (ie. en-au) and should match the language code in the
+# filename. Hugo expects this value to always be in lowercase. For proper HTML
+# compliance, set the isoCode parameter which is case-sensitive.
 languageCode = "en"
+
+# The name of the language.
 languageName = "English"
+
+# The name used when the language appears on the website.
 displayName = "EN"
+
+# The ISO language code for HTML metadata purposes. It can be a top-level
+# language (ie. en) or a sub-variant (ie. en-AU).
 isoCode = "en"
+
+# The weight determines the order of languages when building multilingual sites.
 weight = 1
-# true if right-to-left (RTL) language
+
+# Whether or not this is a RTL language. Set to true to reflow content from
+# right-to-left. Blowfish fully supports using RTL and LTR languages at the
+# same time and will dynamically adjust to both.
 rtl = false
 
-# Some important defaults
+# The title of the website. This will be displayed in the site header and footer.
 title = "cdell.io"
-# Removing the logo for now
+
+# Removing the logo for now. I also think this should be in `params.toml` and
+# not here?
 # logo = "placeholder-logo.jpg"
+
+# The website description. This will be used in the site metadata.
 description = "Christian Elliott's personal website"
+#A Markdown string containing the copyright message to be displayed in the site footer. If none is provided, Blowfish will automatically generate a copyright string using the site title.
 copyright = "﫥 Christian Elliott 2022"
 
-# This comes from https://gohugo.io/functions/format/#gos-layout-string
+# How dates are formatted in this language. Refer to the Hugo docs for acceptable formats.
 dateFormat = "2 January 2006"
 
 [author]
+  # The author’s name. This will be displayed in article footers, and on the
+  # homepage when the profile layout is used.
   name = "Christian Elliott"
-  # The image file must be in $PROJECT_ROOT/assets
+
+  # Path to the image file of the author. The image should be a 1:1 aspect ratio
+  # and the image file must be in $PROJECT_ROOT/assets
   image = "img/author-placeholder.jpg"
-  # headline = "an online brain dump"
+
+  # 	A Markdown string containing the author’s headline. It will be displayed
+  # on the profile homepage under the author’s name.
+  # headline = "an online braindump"
   # headline = "my 🧠, your 👀" # Tbh this looks weird idk why
   headline = "my intrusive thoughts, your entertainment?"
+
+  # A Markdown string containing the author’s bio. It will be displayed in
+  # article footers.
   bio = "Thanks for reading. Christian Elliott - dreamer, engineer, watcher of RuneScape YT, caught in between gen-z and millennial {{< icon \"heart\" >}}"
+
+  # The links to display alongside the author’s details. The config file
+  # contains example links which can simply be uncommented to enable. The order
+  # that the links are displayed is determined by the order they appear in the
+  # array. Custom links can be added by providing corresponding SVG icon assets
+  # in assets/icons/.
   links = [
     { email = "mailto:cdelliott96@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },

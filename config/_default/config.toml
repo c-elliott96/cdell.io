@@ -2,23 +2,53 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
+# When using Hugo Modules this config value should be removed. For all other
+# installation types, this must be set to blowfish for the theme to function.
+# theme = "blowfish"
+
+# root URL of the website
 baseURL = "https://cdell.io"
+
+# This value determines the default language of theme components and content.
+# Refer to the language and i18n section below for supported language codes.
 defaultContentLanguage = "en"
 languageCode = "en"
 
+# When enabled, a robots.txt file will be created in the site root that allows
+# search engines to crawl the entire site. If you prefer to provide your own
+# pre-made robots.txt, set to false and place your file in the static directory.
+# For complete control, you may provide a custom layout to generate this file.
 enableRobotsTXT = true
+
+# The number of articles listed on each page of the article listing.
 paginate = 20
+
+# The number of words that are used to generate the article summary when one is
+# not provided in the front matter. A value of 0 will use the first sentence.
+# This value has no effect when summaries are hidden.
 summaryLength = 30
 
+# I can't find documentation for these next three
 buildDrafts = false
 buildFuture = false
-
 # googleAnalytics = "G-XXXXXXXXX"
 
+# Refer to the Hugo docs for permalink configuration.
+# permalinks = ?
+
+# Refer to the Organising content section for taxonomy configuration.
+# taxonomies = ?
+
+# No documentation for this config either
 [sitemap]
   changefreq = 'daily'
   filename = 'sitemap.xml'
   priority = 0.5
 
+# The output formats that are generated for the site. Blowfish requires HTML,
+# RSS and JSON for all theme components to work correctly.
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+# Also useful info about thumbnails - not sure where else to stash this:
+# https://nunocoracao.github.io/blowfish/docs/configuration/#thumbnails

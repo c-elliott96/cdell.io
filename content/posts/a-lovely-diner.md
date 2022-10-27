@@ -4,7 +4,7 @@ author = ["Christian Elliott"]
 draft = true
 +++
 
-Recount the imrpession Mac's diner in Chicago left on me.
+LILLIAN !!! Recount the imrpession Mac's diner in Chicago left on me.
 
 
 ## The people, not the place or the food {#the-people-not-the-place-or-the-food}
