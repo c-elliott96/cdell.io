@@ -8,14 +8,8 @@
 # Can't figure out why, but it definitely started (and seems to be
 # related to) when I added the auto set lastmod stuff.
 
-* TODO Homepage _index
-:PROPERTIES:
-:EXPORT_FILE_NAME: _index
-:EXPORT_HUGO_TYPE: homepage
-:EXPORT_HUGO_SECTION: /
-:END:
-** Notes
-*** Latex preview PNGs
+* Notes
+** Latex preview PNGs
   My PNGs that are the LaTeX preview from ORG/* are showing up in this
   =cdell.io/static/ltximg= when I run =org-hugo-export-wim-to-md=.
 
@@ -25,10 +19,18 @@
 
   The real concern here is committing content that is not intended for a
   publicly facing repo, as Github Pages /must/ be.
-*** Known issues
+** Known issues
 - It looks like changing tags/categories will break a running server, locally.
 - Tags can't contain hyphens
   - Can they be escaped?
+* DONE Homepage _index
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_TYPE: homepage
+:EXPORT_HUGO_SECTION: /
+:END:
+Welcome to my blog! **Christian, figure out what to put here.**
+Also, add the blog cards or whatever below like the example site.
 * DONE Thoughts
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index

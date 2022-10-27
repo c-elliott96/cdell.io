@@ -1,22 +1,31 @@
+# This section is necessary for the way in which Blowfish
+# uses il8n, probably.
 languageCode = "en"
 languageName = "English"
 displayName = "EN"
 isoCode = "en"
 weight = 1
+# true if right-to-left (RTL) language
 rtl = false
 
-title = "Blowfish"
-# logo = "img/logo.png"
-description = "My awesome website"
-# copyright = "Copy, _right?_ :thinking_face:"
+# Some important defaults
+title = "cdell.io"
+# Removing the logo for now
+# logo = "placeholder-logo.jpg"
+description = "Christian Elliott's personal website"
+copyright = "﫥 Christian Elliott 2022"
 
+# This comes from https://gohugo.io/functions/format/#gos-layout-string
 dateFormat = "2 January 2006"
 
 [author]
   name = "Christian Elliott"
-  image = "img/blowfish_logo.png"
-  headline = "THIS IS MY bLoG"
-  bio = "I'm a regular dude"
+  # The image file must be in $PROJECT_ROOT/assets
+  image = "img/author-placeholder.jpg"
+  # headline = "an online brain dump"
+  # headline = "my 🧠, your 👀" # Tbh this looks weird idk why
+  headline = "my intrusive thoughts, your entertainment?"
+  bio = "Thanks for reading. Christian Elliott - dreamer, engineer, watcher of RuneScape YT, caught in between gen-z and millennial {{< icon \"heart\" >}}"
   links = [
     { email = "mailto:cdelliott96@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
@@ -38,7 +47,7 @@ dateFormat = "2 January 2006"
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
+    { linkedin = "https://www.linkedin.com/in/christian-elliott-b32921180/" },
   #   { mastodon = "https://mastodon.instance/@username" },
   #   { medium = "https://medium.com/username" },
   #   { microsoft = "https://www.microsoft.com/" },
