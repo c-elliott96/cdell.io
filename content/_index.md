@@ -1,6 +1,7 @@
 +++
 title = "Homepage _index"
 author = ["Christian Elliott"]
+lastmod = 2022-10-30T22:26:53-05:00
 type = "homepage"
 draft = false
 +++

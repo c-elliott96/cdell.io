@@ -57,7 +57,7 @@ dateFormat = "2 January 2006"
 
   # A Markdown string containing the author’s bio. It will be displayed in
   # article footers.
-  bio = "Thanks for reading. Christian Elliott - dreamer, engineer, watcher of RuneScape YT, caught in between gen-z and millennial {{< icon \"heart\" >}}"
+  bio = "Thanks for reading. Christian Elliott -- Boring, Regular, Person. {{< icon \"heart\" >}}"
 
   # The links to display alongside the author’s details. The config file
   # contains example links which can simply be uncommented to enable. The order

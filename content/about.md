@@ -1,54 +1,12 @@
-#+hugo_base_dir: ../
-#+hugo_auto_set_lastmod: t
++++
+title = "About Me"
+author = ["Christian Elliott"]
+lastmod = 2022-10-30T22:26:54-05:00
+draft = false
++++
 
-# To add automatic timestamp updates to a subtree, add
-# :EXPORT_HUGO_AUTO_SET_LASTMOD:
-# to the properties
-# For some reason, I think the global #+hugo_auto_set_lastmod: t
-# file setting was causing my Emacs to freeze. It's still freezing. 
-# Can't figure out why, but it definitely started (and seems to be
-# related to) when I added the auto set lastmod stuff.
-#
-# To answer the above remark, it only freezes if I do not have :EXPORT_DATE: set
-# in a post I attempt to export
-
-* Notes
-** Latex preview PNGs
-  My PNGs that are the LaTeX preview from ORG/* are showing up in this
-  =cdell.io/static/ltximg= when I run =org-hugo-export-wim-to-md=.
-
-  Note: a temporary workaround for this dilemma is to .gitignore
-  =static/ltximg/*=, but this will likely interfere with embedded LaTeX in
-  Github Pages
-
-  The real concern here is committing content that is not intended for a
-  publicly facing repo, as Github Pages /must/ be.
-** Known issues
-- It looks like changing tags/categories will break a running server, locally.
-- Tags can't contain hyphens
-  - Can they be escaped?
-* DONE Homepage _index
-:PROPERTIES:
-:EXPORT_FILE_NAME: _index
-:EXPORT_HUGO_TYPE: homepage
-:EXPORT_HUGO_SECTION: /
-:END:
-Welcome to my blog! **Christian, figure out what to put here.**
-Also, add the blog cards or whatever below like the example site.
-* DONE Posts
-:PROPERTIES:
-:EXPORT_FILE_NAME: _index
-:EXPORT_HUGO_SECTION: posts/
-:EXPORT_DATE: <2022-10-30 Sun>
-:END:
-Hello! Thanks for checking out my writings. I hope you enjoy them.
-* DONE About Me
-:PROPERTIES:
-:EXPORT_FILE_NAME: about
-:EXPORT_HUGO_SECTION: /
-:END:
 My name's Christian, and I'm about as regular as it gets. I work for a tech
-company and I write sh*tty code (probably). I enjoy a good beer and my dad's old
+company and I write sh\*tty code (probably). I enjoy a good beer and my dad's old
 rock/grunge. I like to think deeply about questions I'll never know the answer
 to. I am from the midwestern United States.
 
@@ -59,7 +17,8 @@ a PGP encrypted email to cdelliott96 (at) gmail (dot) com. Of course, I accept
 communication from anyone, I just won't open your links if I don't know you ☺
 
 Here is my PGP public key:
-#+begin_src text
+
+```text
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBGHk0aEBEADYWnaWt+15UDuhG45917icO2FsWVjsE/in3/LtXFmCsmMZ9aSV
@@ -112,26 +71,4 @@ ovENKWD2uBGDUh3YrGJq8FGcvhzjnzqJAQK5M06ZWNgRXb4vktiEK8hKvvJLKg7A
 fWp4wctu+V6m3V+mV6ppD+vV3QoFZiB1xT/LZZFwK9A=
 =PV6b
 -----END PGP PUBLIC KEY BLOCK-----
-#+end_src
-* DONE My First Post
-:PROPERTIES:
-:EXPORT_FILE_NAME: my-first-post
-:EXPORT_DATE: <2022-10-28 Fri>
-:END:
-** "What is my purpose?"
-[[file:/img/rick-and-morty-my-purpose.gif]]
-
-I am still trying to figure out the topic for my very first post. I'm sure that,
-in hindsight, it won't matter. Starting is usually more important than how you
-actually start. But paralysis by analysis is kind of my thing, so.
-
-Before I really get too far into coming up with potential topics for this first
-post, I should probably try to narrow down what this blog is going to be about
-in general. If nothing else, I just want this blog to represent /me/. I want it
-to be organic and authentic. Given I'm a human being that is always evolving,
-that means this blog's whole state is going to be dynamic. Maybe it's ok that I
-don't come up with a concrete focus and theme.
-
-I think I've just finished my first blog post. It's only downhill from here!
-
-Cheers.
+```
