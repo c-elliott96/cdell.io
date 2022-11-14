@@ -42,8 +42,6 @@ For more, see https://ox-hugo.scripter.co/doc/hugo-section/.
 :EXPORT_HUGO_TYPE: homepage
 :EXPORT_HUGO_SECTION: /
 :END:
-Welcome to my blog! **Christian, figure out what to put here.**
-Also, add the blog cards or whatever below like the example site.
 * DONE Thoughts
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
@@ -63,13 +61,13 @@ to. I am from the midwestern United States.
 
 If you'd like to contact me and have something important to say, please send me
 a PGP encrypted email to cdelliott96 (at) gmail (dot) com. Of course, I accept
-communication from anyone, I just won't open your links if I don't know you ☺
+communication from anyone, I just may not open your links if I don't know you. ☺
 
 Here is my PGP fingerprint:
 #+begin_src text
 8D2D 37DE F5DE CF38 DDDD  4315 8E72 EDFF 29CF 4310
 #+end_src
-and here is my [[file:/main-pub.key][PGP public key]].
+and [[file:/main-pub.key][here]] is my PGP public key. 🔐
 
 * DONE My First Post
 :PROPERTIES:

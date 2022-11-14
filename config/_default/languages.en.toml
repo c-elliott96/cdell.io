@@ -53,7 +53,7 @@ dateFormat = "2 January 2006"
   # on the profile homepage under the author’s name.
   # headline = "an online braindump"
   # headline = "my 🧠, your 👀" # Tbh this looks weird idk why
-  headline = "my intrusive thoughts, your entertainment?"
+  headline = "my <strike>instrusive</strike> <a href=\"/thoughts\">thoughts</a>, your entertainment?"
 
   # A Markdown string containing the author’s bio. It will be displayed in
   # article footers.
