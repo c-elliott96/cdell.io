@@ -82,7 +82,7 @@ enableCodeCopy = true
   showMoreLink = false
 
   # The destination of the show more button.
-  showMoreLinkDest = "/posts"
+  showMoreLinkDest = "/thoughts"
 
 [article]
   # Whether or not article dates are displayed.
@@ -140,7 +140,7 @@ enableCodeCopy = true
   invertPagination = false
 
   # Whether or not article reading times are displayed.
-  showReadingTime = true
+  showReadingTime = false
 
   # Whether or not the table of contents is displayed on articles.
   showTableOfContents = true
@@ -154,7 +154,7 @@ enableCodeCopy = true
   showAuthorsBadges = false
 
   # Whether or not article word counts are displayed.
-  showWordCount = true
+  showWordCount = false
 
   # Whether or not the comments partial is included after the article footer.
   showComments = false

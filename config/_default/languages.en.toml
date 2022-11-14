@@ -47,7 +47,7 @@ dateFormat = "2 January 2006"
 
   # Path to the image file of the author. The image should be a 1:1 aspect ratio
   # and the image file must be in $PROJECT_ROOT/assets
-  image = "img/author-placeholder.jpg"
+  image = "img/avi.jpg"
 
   # 	A Markdown string containing the author’s headline. It will be displayed
   # on the profile homepage under the author’s name.
