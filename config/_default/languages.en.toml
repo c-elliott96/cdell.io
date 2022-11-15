@@ -35,7 +35,7 @@ title = "cdell.io"
 # The website description. This will be used in the site metadata.
 description = "Christian Elliott's personal website"
 #A Markdown string containing the copyright message to be displayed in the site footer. If none is provided, Blowfish will automatically generate a copyright string using the site title.
-copyright = "﫥 Christian Elliott 2022"
+copyright = "&copy; Christian Elliott 2022"
 
 # How dates are formatted in this language. Refer to the Hugo docs for acceptable formats.
 dateFormat = "2 January 2006"
