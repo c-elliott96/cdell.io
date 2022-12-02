@@ -2,8 +2,8 @@
 title = "How I Made This Blog"
 author = ["Christian Elliott"]
 date = 2022-11-26T00:00:00-06:00
-lastmod = 2022-12-01T17:54:58-06:00
-draft = true
+lastmod = 2022-12-01T18:04:32-06:00
+draft = false
 +++
 
 A summary of how this blog is constructed and my blogging workflow

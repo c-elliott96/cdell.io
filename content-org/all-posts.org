@@ -101,7 +101,7 @@ don't come up with a concrete focus and theme.
 I think I've just finished my first blog post. It's only downhill from here!
 
 Cheers.
-* TODO How I Made This Blog
+* DONE How I Made This Blog
 :PROPERTIES:
 :EXPORT_FILE_NAME: how-i-make-this-blog
 :EXPORT_HUGO_SECTION: thoughts/
