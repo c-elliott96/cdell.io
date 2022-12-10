@@ -37,7 +37,7 @@ summaryLength = 30
 # I can't find documentation for these next three
 buildDrafts = false
 buildFuture = false
-# googleAnalytics = "G-XXXXXXXXX"
+googleAnalytics = "G-GH875KB7P0"
 
 # Refer to the Hugo docs for permalink configuration.
 # permalinks = ?
